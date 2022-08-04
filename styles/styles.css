@@ -1,0 +1,163 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Poppins:wght@900&family=Sen:wght@400;700;800&family=Square+Peg&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&family=Mada:wght@400;500;700&family=Poppins:wght@900&family=Sen:wght@400;700;800&family=Square+Peg&display=swap');
+*{
+    margin: 0;
+    padding: 0%;
+}
+
+
+/* _____________________________nav-section___________________________ */
+.navbar{
+    /* background-color: crimson; */
+    display: flex;
+    padding: 40px 50px 20px 50px;
+    position: relative;
+}
+
+.logo-img{
+    width: 80px;
+}
+
+.left-nav{
+    display: flex;
+    margin-left: auto;
+    border-bottom: solid 3px white;
+    padding-bottom: 20px;
+    padding-left: -0px;
+}
+
+.first-btn{
+    margin: 0 40px 0 0;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: 'mada';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.menu-btn{
+    margin: 0 40px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    font-family: 'mada';
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.no{
+    color: white;
+    font-family: 'mada';
+    font-weight: 700;
+}
+
+/* _________________________________Middle-Section__________________________ */
+
+.middle-container{
+    color: white;
+    /* background-color: black; */
+    padding: 50px;
+    position: relative;
+}
+
+.heading{
+    font-family: 'mada';
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.learn{
+    border: solid 3px white;
+    background-color: rgba(255, 255, 255, 0);
+    font-family: 'mada';
+    font-weight: 500;
+    font-size: 1.8rem;
+    padding: 10px 25px;
+    border-radius: 35px;
+    color: white;
+    margin-top: 40px;
+}
+
+.back-img{
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100vh;
+}
+
+
+/* ____________floating-divs________________________________ */
+.float{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 260px;
+    position: absolute;
+    right: 50px;
+    top: 130px;
+    padding: 20px 20px;
+}
+
+.icon{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    margin: 10px auto;
+
+}
+
+.float-text{
+    color: white;
+    font-family: 'square peg';
+    font-size: 2rem;
+}
+
+.vertical-line{
+    border-left: solid 2px white;
+    height: 80px;
+    position: absolute;
+    right: 90px;
+    top: 321px;
+}
+
+
+.circle{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 81px;
+    top: 380px;
+}
+
+.float2{
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 260px;
+    position: absolute;
+    right: 280px;
+    top: 370px;
+    padding: 20px 20px;
+
+}
+
+.circle2{
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 50%;
+    position: absolute;
+    right: 184px;
+    top: 461px;
+
+}
+
+.horizontal-line{
+    border-bottom: solid 2px white;
+    width: 80px;
+    position: absolute;
+    right: 200px;
+    top: 471px;
+
+}
